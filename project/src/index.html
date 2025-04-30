@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karel Tour</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../assets/svg/tree-svgrepo.svg" " alt="ЕЛКА" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Галерея</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="cta"><a href="#">🧍 Оставить заявку</a></div>
+    </header>
+
+    <section class="hero">
+      <div class="your-class"
+      <figure></figure>
+
+      <div class="hero-content">
+        <h1>Добро пожаловать в <br>Карелию</br></h1>
+        <p>Приглашаем в лучшее приключение в вашей жизни, <br>мы создадим ваш отпуск!</br></p>
+      </div>
+    </section>
+    <div class="social-toggle-container">
+      <input type="checkbox" id="social-toggle" hidden />
+      <label for="social-toggle" class="social-toggle-button">
+        <img src="../assets/svg/plus-square-svgrepo-com.svg" alt="" class="plus-icon" />
+      </label>
+      <div class="social-icons">
+        <a href="" target="_blank" class="social-link">
+          <img src="../assets/svg/TelegramFill.svg" alt="Telegram" />
+        </a>
+        <a href="https://vk.com/dmitriymedvedevofficial52" target="_blank" class="social-link">
+          <img src="../assets/svg/vk-svgrepo-com.svg" alt="VK" />
+        </a>
+      </div>
+    </div>
+
+    <section class="catalog">
+      <h2>КАТАЛОГ</h2> 
+      <p class="catalog-description">
+        Задача организации, в особенности же сложившаяся структура организации позволяет выполнять
+        важные задания по разработке существенных финансовых и административных условий.
+      </p>
+      <div class="your-class">
+        <a href="#" class="catalog-card">
+          <img src="../assets/images/Rusk.jpg" alt="" />
+          <div class="catalog-title"></div>
+        </a>
+
+        <a href="#" class="catalog-card">
+          <img src="../assets/images/Kizh.jpg" alt="" />
+          <div class="catalog-title"></div>
+        </a>
+
+        <a href="#" class="catalog-card">
+          <img src="../assets/images/Kiv.jpg" alt="" />
+          <div class="catalog-title"></div>
+        </a>
+
+        <a href="#" class="catalog-card">
+          <img src="../assets/images/Stol.lpg.jpg" alt="Столица Петрозаводск" />
+          <div class="catalog-title"></div>
+        </a>
+      </div>
+        
+      </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.your-class').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          dots: true,
+          arrows: true,
+          autoplaySpeed: 2000,
+        });
+      });
+    </script>
+  </body>
+  <section class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>О НАС</h2>
+        <p>
+          Компания <strong style="color: #226b45;">KarelTour</strong> основана в <a href="#" style="color: #226b45; text-decoration: none;">2016 году</a>.<br />
+          Мы начинали свою деятельность с небольших туристических походов, экспедиций и просто активным отдыхом.
+        </p>
+        <p>
+          За <span style="color: #226b45;">6 лет</span> существования компании мы:
+          <ul>
+            <li><span style="color: #226b45;">●</span> Приняли более <strong>457 000 гостей</strong>;</li>
+            <li><span style="color: #226b45;">●</span> Расширили базу нашего снаряжения;</li>
+            <li><span style="color: #226b45;">●</span> Обзавелись собственным лагерем;</li>
+          </ul>
+        </p>
+        <p>С нами вы увидите прекрасные водопады, скалы, леса и древние петроглифы и всю красоту Карельского края.</p>
+        <p style="color: #226b45; font-weight: bold;">Ощути Карелию вместе с нами!</p>
+        <div class="about-logo">
+          <img src="../assets/svg/tree-svgrepo.svg" alt="Karel Tour" />
+          <span style="font-size: 24px; font-weight: bold; color: #226b45;">Karel<br />Tour</span>
+        </div>
+      </div>
+  
+      <div class="about-gallery">
+        <div class="video-thumbnail">
+          <img src="../assets/images/" alt="Видео Карелия" />
+          <div class="play-button">&#9658;</div>
+          <div class="video-label">What is Karelia?</div>
+        </div>
+        <img src="../assets/images/river.jpg" alt="Река" class="about-img" />
+        <img src="../assets/images/tent.jpg" alt="Костер и палатка" class="about-img round-right" />
+      </div>
+    </div>
+  </section>
+  
+</html>
